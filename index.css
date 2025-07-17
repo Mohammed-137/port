@@ -1,0 +1,35 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .carousel-inner img {
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .card-title, .card-text {
+      text-align: center;
+    }
+
+    .contact-section input, .contact-section textarea {
+      background-color: #222;
+      color: white;
+      border: 1px solid #555;
+    }
+
+    .contact-section input::placeholder,
+    .contact-section textarea::placeholder {
+      color: #ccc;
+    }
+
+    .card {
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      padding: 15px 0;
+      text-align: center;
+      justify-content: center;
+    }
